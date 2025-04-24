@@ -1,0 +1,40 @@
+:root{
+--cor-primaria: #1E3A8A;
+--cor-secundaria: #3B82F6;
+--cor-destaque: #60A5FA;
+--cor-cinza: #F3F4F6;
+--cor-texto: #E5E7EB;
+--cor-preto: #111827;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;}
+
+body {
+    background-color: var(--cor-pteta);
+    color: var(--cor-texto);
+    line-height:1.6}
+
+    header {
+        text-align: center;
+        padding: 40xp;
+        background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
+        color: white;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;}
+
+.sobre {
+            text-align: center;
+            padding: 50px;
+            background-color: var(--cor-cinza);
+            color: var(--cor-preta);
+            border-radius: 10xp; whidth: 80% 
+        }
